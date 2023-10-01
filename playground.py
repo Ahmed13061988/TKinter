@@ -14,3 +14,14 @@ def calculate(**kwargs):
 
 
 calculate(add=3, muliply=5)
+
+class Car:
+
+    def __init__(self, **kwargs):
+        self.make = kwargs["make"]
+        self.model = kwargs["model"]
+
+
+car = Car(make="BMW", model="X5")
+
+print(car.model)
