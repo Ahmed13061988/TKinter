@@ -17,9 +17,6 @@ my_label.pack(side="left")
 # result = my_function()
 # print(result)
 
-def add(*arg):
-    for i in arg:
-        print(i)
-add(1,2,3,4,5,6,7,"a")
+
 
 window.mainloop()
