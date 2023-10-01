@@ -6,17 +6,17 @@ window.minsize(width=500, height=300)
 
 # Label
 my_label = tk.Label(text="I'm a Label", font=("Arial", 24))
-my_label.pack(side="left")
+my_label.pack()
+
+my_label.config(text="New Text")
 
 
-# def my_function(a=1, b=4, c=10):
-#     return a + b * c
-#
-#
-# result = 0
-# result = my_function()
-# print(result)
+# Button
+def button_clicked():
+    print("I got clicked!")
 
 
+button = tk.Button(text="Click me!", command=button_clicked)
+button.pack()
 
 window.mainloop()
