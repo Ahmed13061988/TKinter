@@ -1,12 +1,13 @@
-import tkinter
+import tkinter as tk
 
-window = tkinter.Tk()
+window = tk.Tk()
 window.title("GUI program")
-window.minsize(width=300, height=500)
+window.minsize(width=500, height=300)
 
 
 # Label
-my_label = tkinter.Label(text="I'm a label")
+my_label = tk.Label(text="I'm a label")
+my_label.pack()
 
 
 
