@@ -1,4 +1,3 @@
-
 # def my_function(a=1, b=4, c=10):
 #     return a + b * c
 #
@@ -6,7 +5,6 @@
 # result = 0
 # result = my_function()
 # print(result)
-
 
 
 def add(*arg):
@@ -25,6 +23,7 @@ def calculate(**kwargs):
 
 
 calculate(add=3, muliply=5)
+
 
 class Car:
 
