@@ -32,4 +32,7 @@ def button_clicked():
 button = tk.Button(text="Click me!", command=button_clicked)
 button.pack()
 
+check_box = tk.CHECKBUTTON()
+check_box.pack()
+
 window.mainloop()
